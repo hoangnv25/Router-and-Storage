@@ -9,7 +9,7 @@ function Login()
 {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
-    // const navigate = useNavigate();
+     const navigate = useNavigate();
 
     const fetchToken = async () => {
         const url = 'https://dev.lcdkhoacntt1-ptit.tech/api/authentication/token';
@@ -37,7 +37,7 @@ function Login()
             else{
                 const data = await response.json();
                 console.log('Access token:', data.access_token);
-
+                navigate('/home')
                 sessionStorage.setItem('accessToken', data.access_token);
                 
                 setTimeout(() => {
