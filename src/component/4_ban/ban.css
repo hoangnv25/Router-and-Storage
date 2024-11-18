@@ -1,0 +1,10 @@
+.ban_container {
+    padding: 2% 10%;
+    min-height: 60vh;
+}
+
+.ban_btn {
+    margin-right: 24px ;
+    position: relative;
+    transform: translate(18px, -42px);
+}

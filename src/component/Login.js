@@ -1,5 +1,4 @@
 import { useNavigate } from 'react-router-dom';
-
 import { useState } from 'react';
 
 import './Login.css'
@@ -60,10 +59,6 @@ function Login()
         console.log("Submitting form...");
         fetchToken();
     };
-
-
-
-
 
 
 

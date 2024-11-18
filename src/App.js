@@ -3,8 +3,9 @@ import { Routes, Route } from 'react-router-dom';
 import Home from './component/Home.js'
 import Scoreboard from './component/Scoreboard.js'
 import Compete from './component/Compete.js'
-import About from './component/About.js'
+import About from './component/about/About.js'
 import Contest_rule from './component/Contest_rule.js';
+import Ban from './component/4_ban/ban.js';
 import Login from './component/Login.js';
 import Register from './component/Register.js';
 import Setting from './component/Setting.js';
@@ -38,6 +39,7 @@ function App() {
       <Route path='/compete' element={<Compete/>} />
       <Route path='/about' element={<About/>} />
       <Route path='/contest_rule' element={<Contest_rule/>} />
+      <Route path='/ban' element={<Ban/>} />
       <Route path='/login' element={<Login/>} />
       <Route path='/' element={<Register/>} />
       <Route path='/setting' element={<Setting/>} />

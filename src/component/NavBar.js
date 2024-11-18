@@ -58,6 +58,10 @@ function NavBar() {
             </li>
 
             <li>
+              <Link to='/ban' >Ban</Link>
+            </li>
+
+            <li>
               <Link to='/login'>Login</Link>
             </li>
 
